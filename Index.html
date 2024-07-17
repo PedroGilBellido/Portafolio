@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Pedro Bellido. Desarrollador Web</title>
+</head>
+<body>
+    <!-- Sección de inicio-->
+     <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Pedro Bellido</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)" >SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--Iconos del menú-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <!--Iconos de redes sociales-->
+                    <div class="redes">
+                        <a href="https://github.com/PedroGilBellido"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pedro-bellido-178915281/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Como diría Kenobi, Hello there!</p>
+                <h2>Mi nombre es Pedro Bellido Desarrollador <span>Fontend</span></h2>
+                <p class="descripcion">Me caracterizo por tener un enfoque creativo y funcional. Curioso y con ganas de seguir aprendiendo.</p>
+                <a href="#portafolio">Ir al portafolio</a>
+            </div>
+        </div>
+     </section>
+
+     <!--Sección sobre mi-->
+     <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./IMG/Fotoperfil.jpg" alt="foto perfil">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2> Desarrollador de Aplicaciones <span> Web </span></h2>
+            <h3>Frontend / UX-UI / Branding</h3>
+            <p>Mi enfoque resolutivo me ha permitido diseñar y desarrollar entornos web además de logotipos y elementos de branding que capturan la esencia y personalidad de cada empresa con la que colaboro.</p>
+            <p> Disfruto del proceso de investigación y experimentación para encontrar soluciones visuales innovadoras.</p>
+            <p>Comprometido en brindar un servicio personalizado y de calidad.</p>
+            <a href="PedroBellidoCV-DEV.pdf">Descargar CV</a>
+        </div>
+     </section>
+
+     <!--Seccion Servicios-->
+     <section id="servicios">
+        <h3 class="titulo-seccion">Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseño Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Ux-UI</li>
+                    <li>Gráfica</li>
+                    <li>SEO</li>
+                </ul>
+                <br>
+                <p>Diseño y realización de entornos web interactivos y responsives. Análisis técnico previo del entorno y realización de mejoras del mismo.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-pencil"></i></span>
+                <h4>Diseño Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Branding</li>
+                    <li>Gráfico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum itaque aspernatur cupiditate, corporis illum officiis explicabo labore laudantium aliquid vero ex voluptatum, quas voluptatibus et ratione voluptas delectus. Eos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Desarrollo web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Interfaces de usuario</li>
+                    <li>Gráfico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum itaque aspernatur cupiditate, corporis illum officiis explicabo labore laudantium aliquid vero ex voluptatum, quas voluptatibus et ratione voluptas delectus. Eos.</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4> Logotipos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Interfaces de usuario</li>
+                    <li>Gráfico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum itaque aspernatur cupiditate, corporis illum officiis explicabo labore laudantium aliquid vero ex voluptatum, quas voluptatibus et ratione voluptas delectus. Eos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Identidades corporativas</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Interfaces de usuario</li>
+                    <li>Gráfico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum itaque aspernatur cupiditate, corporis illum officiis explicabo labore laudantium aliquid vero ex voluptatum, quas voluptatibus et ratione voluptas delectus. Eos.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Maquetación editorial</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Interfaces de usuario</li>
+                    <li>Gráfico</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rerum itaque aspernatur cupiditate, corporis illum officiis explicabo labore laudantium aliquid vero ex voluptatum, quas voluptatibus et ratione voluptas delectus. Eos.</p>
+            </div>
+        </div>
+     </section>
+
+     <!--Seccion habilidades-->
+
+     <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+              <p><span class="lista"></span>HTML & CSS</p>
+              <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+              <p><span class="lista"></span>JavaScript</p>
+              <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+              <p><span class="lista"></span>Mysql</p>
+              <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="mysql" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+              <p><span class="lista"></span>Illustrator</p>
+              <span class="porcentaje">80%</span>
+            </div>
+            <div class="barra">
+                <div id="Illustrator" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+              <p><span class="lista"></span>Indesign</p>
+              <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="Indesign" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+              <p><span class="lista"></span>Photoshop</p>
+              <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="Photoshop" class=""></div>
+            </div>
+        </div>
+     </div>
+
+     <!--Sección portafolio-->
+     <section id="portafolio">
+        <h3 class="titulo-seccion">Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="./IMG/Dragon3.PNG" alt="">
+                    <div class="info">
+                        <h4>Descripción del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="./IMG/Cell1.PNG" alt="">
+                    <div class="info">
+                        <h4>Descripción del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="./IMG/Cha4.PNG" alt="">
+                    <div class="info">
+                        <h4>Descripción del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="./IMG/Groogie2.PNG" alt="">
+                    <div class="info">
+                        <h4>Descripción del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="./IMG/Samsung4.PNG" alt="">
+                    <div class="info">
+                        <h4>Descripción del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <img src="./IMG/Sam4.PNG" alt="">
+                    <div class="info">
+                        <h4>Descripción del proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!--Sección de contacto-->
+
+    <section id="contacto">
+        <h3 class="titulo-seccion"> <span> Cuéntame tu idea</span> </h3>
+        <div class=" contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class=" input-mitad ">
+                    <input type="text" placeholder="Dirección de Email" class=" input-mitad ">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!--sección del footer-->
+    <footer>
+        <p>Todos los derechos reservados -2024</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
